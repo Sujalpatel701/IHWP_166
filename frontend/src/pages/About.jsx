@@ -7,17 +7,27 @@ const About = () => {
       <div className="about-card">
         <h2>About VedaBalance</h2>
         <p>
-          <span>VedaBalance</span> is your AI-powered companion for holistic
-          well-being, blending the timeless wisdom of Ayurveda with modern
-          technology.
-          <br />
-          <br />
-          Discover your <strong>Prakriti</strong>, receive personalized diet and
-          lifestyle recommendations, and stay balanced — physically, mentally,
-          and spiritually.
+          <span className="highlight">VedaBalance</span> is an AI-powered wellness
+          companion designed to bring ancient Ayurvedic wisdom into modern life.
+          It helps users discover their <strong>Prakriti</strong> (body-mind constitution),
+          offering personalized diet, lifestyle, and balance guidance.
         </p>
+
+        <p>
+          This project was thoughtfully developed by{" "}
+          <strong>Sujal Patel</strong> 🌿
+          <br />
+          <span className="details">
+            Enrollment No: <strong>202203103510166</strong>
+            <br />
+            Branch: <strong>B.Tech Information Technology</strong>
+            <br />
+            Institute: <strong>AMTICS</strong>
+          </span>
+        </p>
+
         <p className="quote">
-          “Balance is not something you find, it’s something you create.” 🌺
+          “Balance is not something you find — it’s something you create.” 🌺
         </p>
       </div>
     </div>
