@@ -1,0 +1,48 @@
+.result-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.result-container h1 {
+  text-align: center;
+  color: #1b5e20;
+  margin-bottom: 15px;
+}
+
+.constitution {
+  text-align: center;
+  color: #33691e;
+  margin-bottom: 25px;
+}
+
+.ai-analysis {
+  background: #f6fff8;
+  border-left: 5px solid #81c784;
+  padding: 20px;
+  border-radius: 12px;
+  white-space: pre-line;
+  line-height: 1.6;
+  font-size: 1.05rem;
+  color: #2b3a29;
+}
+
+.back-btn {
+  display: block;
+  margin: 30px auto 0;
+  background-color: #388e3c;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #2e7d32;
+}
