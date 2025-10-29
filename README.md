@@ -26,7 +26,7 @@ uvicorn app:app --reload
 ```
 ### 2️⃣ Start the Frontend
 ```bash
-cd backend/frontend
+cd frontend
 npm install
 npm run dev
 ```
