@@ -19,7 +19,6 @@ Make sure you have the following installed:
 
 ### 1️⃣ Start the Backend
 
-```bash
 cd backend
 pip install -r requirements.txt
 uvicorn app:app --reload
