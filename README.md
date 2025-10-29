@@ -11,7 +11,7 @@ Make sure you have the following installed before running the project:
 
 - 🐍 **Python 3.10+**  
 - 💻 **Node.js v16+**  
-- 🍃 **MongoDB** (local or cloud)  
+- 🍃 **MongoDB** (cloud)  
 - 🔑 **Google Gemini API Key**
 
 ---
