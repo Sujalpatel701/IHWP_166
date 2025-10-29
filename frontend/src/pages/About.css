@@ -1,0 +1,39 @@
+.about {
+  height: 100vh;
+  background: linear-gradient(135deg, #d3f9d8, #b2f5ea);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 50px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h2 {
+  font-size: 2.5rem;
+  color: #065f46;
+  margin-bottom: 20px;
+}
+
+.about-box p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.7;
+}
+
+.about-box span {
+  color: #007f5f;
+  font-weight: 600;
+}
+
+.quote {
+  margin-top: 25px;
+  color: #666;
+  font-style: italic;
+}

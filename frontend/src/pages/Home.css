@@ -1,0 +1,53 @@
+/* ===== General Layout ===== */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #d6f5d6, #c0efc0);
+  font-family: "Poppins", sans-serif;
+  color: #1e2a1f;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  margin-top: 5rem; /* gives breathing room under navbar */
+  margin-bottom: 0.5rem; /* reduce gap before chat */
+}
+
+.hero h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #2d4739;
+  margin: 0;
+}
+
+/* ===== Chat Section ===== */
+.chat-section {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  justify-content: center;
+  margin-top: 0; /* remove top gap */
+  padding-top: 0;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: auto;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+  font-size: 0.9rem;
+  color: #2e4b2d;
+  background: transparent; /* clean look */
+  position: relative;
+}
