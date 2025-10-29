@@ -12,7 +12,7 @@ VedaBalance is an AI-powered web application that helps users discover their Ayu
 Make sure you have the following installed:
 - **Python 3.10+**
 - **Node.js v16+**
-- **MongoDB** (running locally or in the cloud)
+- **MongoDB** (cloud)
 - **Google Gemini API Key**
 
 ---
@@ -26,8 +26,6 @@ uvicorn app:app --reload
 The backend will start at 👉 http://127.0.0.1:8000
 
 2️⃣ Start the Frontend
-bash
-Copy code
 cd frontend
 npm install
 npm run dev
